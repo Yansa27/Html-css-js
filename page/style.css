@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  header{
+    background-color: cornflowerblue;
+    height: 50px;
+    
+  }
+  
+  .header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .nav{
+    
+    padding: 10px;
+  }
+  
+  .nav-list{  
+    display: flex;
+    list-style-type: none;
+    padding-left: 10px;
+    
+  }
+  
+  .list{
+    padding:10px;
+    
+  }
+  
+  .list a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  .home{
+    text-align: center;
+    height: 100vh;
+  
+  }
+  
+  .about{
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    height: 100vh;
+  
+  }
+  
+  .skill{
+    text-align: center;
+    height: 100vh;
+  
+  }
+  
+  .contact{
+    text-align: center;
+    height: 100vh;
+  
+  }
+  
+  .about img{
+    width: 200px;
+  }
+  
+  .row img{
+    width: 300px;
+  }
+  
+  footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    height: 50px; }
